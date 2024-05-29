@@ -1,0 +1,48 @@
+#Nome e apelidos
+version: "3"
+services:
+  web:
+    build: apache
+    ports:
+      - 80:80
+    volumes:
+      - ./apache/vhost.conf:ruta/dentro/contenedor
+      - ./documentos:/app/nome/
+    networks:
+      my_network:
+        ipv4_address: 192.168.X.40    
+  cliente-firefox:
+    image: kasmweb/firefox:1.14.0
+    ports:
+     - 6901:6901
+    environment:
+      - VNC_PW=abc123.  #Usuario kasm_user
+    extra_hosts:
+      - "HOST:192.168.X.40"
+      - "www.HOST:192.168.X.40"
+    networks:
+      my_network:
+        ipv4_address: 192.168.X.51
+  cliente:
+    build: cliente
+    extra_hosts:
+      - "HOST:192.168.X.40"
+      - "www.HOST:192.168.X.40"
+    networks:
+      my_network:  
+        ipv4_address: 192.168.X.52  
+  cliente2:
+    build: cliente
+    extra_hosts:
+      - "HOST:192.168.X.40"
+      - "www.HOST:192.168.X.40"
+    networks:
+      my_network:    
+        ipv4_address: 192.168.X.180
+
+networks:
+  my_network:
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.X.0/24

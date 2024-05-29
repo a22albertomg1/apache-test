@@ -1,0 +1,56 @@
+#Nome e apelidos
+version: "3"
+services:
+  balanceador:
+    image: nginx:latest
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./nginx/vhost.conf:ruta/dentro/contenedor
+    networks:
+      my_network:
+        ipv4_address: 192.168.X.30    
+      my_network2:
+  web1:
+    build: apache
+    volumes:
+      - ./docsbalanceador:/var/www/html
+    networks:
+      my_network2:
+  cliente-firefox:
+    image: kasmweb/firefox:1.14.0
+    ports:
+     - 6901:6901
+    environment:
+      - VNC_PW=abc123.  #Usuario kasm_user
+    extra_hosts:
+      - "HOST:192.168.X.30"
+      - "www.HOST:192.168.X.30"
+    networks:
+      my_network:
+        ipv4_address: 192.168.X.51
+  cliente:
+    build: cliente
+    extra_hosts:
+      - "HOST:192.168.X.30"
+      - "www.HOST:192.168.X.30"
+    networks:
+      my_network:  
+        ipv4_address: 192.168.X.52  
+  cliente2:
+    build: cliente
+    extra_hosts:
+      - "HOST:192.168.X.30"
+      - "www.HOST:192.168.X.30"
+    networks:
+      my_network:    
+        ipv4_address: 192.168.X.180
+
+networks:
+  my_network:
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.X.0/24
+  my_network2:
