@@ -10,7 +10,7 @@ services:
       - ./nginx/vhost.conf:ruta/dentro/contenedor
     networks:
       my_network:
-        ipv4_address: 192.168.X.30    
+        ipv4_address: 192.168.121.30    
       my_network2:
   web1:
     build: apache
@@ -25,32 +25,32 @@ services:
     environment:
       - VNC_PW=abc123.  #Usuario kasm_user
     extra_hosts:
-      - "HOST:192.168.X.30"
-      - "www.HOST:192.168.X.30"
+      - "alberto.bancodeespana.lan:192.168.121.30"
+      - "www.alberto.bancodeespana.lan:192.168.121.30"
     networks:
       my_network:
-        ipv4_address: 192.168.X.51
+        ipv4_address: 192.168.121.51
   cliente:
     build: cliente
     extra_hosts:
-      - "HOST:192.168.X.30"
-      - "www.HOST:192.168.X.30"
+      - "alberto.bancodeespana.lan:192.168.121.30"
+      - "www.alberto.bancodeespana.lan:192.168.121.30"
     networks:
       my_network:  
-        ipv4_address: 192.168.X.52  
+        ipv4_address: 192.168.121.52  
   cliente2:
     build: cliente
     extra_hosts:
-      - "HOST:192.168.X.30"
-      - "www.HOST:192.168.X.30"
+      - "alberto.bancodeespana.lan:192.168.121.30"
+      - "www.alberto.bancodeespana.lan:192.168.121.30"
     networks:
       my_network:    
-        ipv4_address: 192.168.X.180
+        ipv4_address: 192.168.121.180
 
 networks:
   my_network:
     ipam:
       driver: default
       config:
-        - subnet: 192.168.X.0/24
+        - subnet: 192.168.121.0/24
   my_network2:
