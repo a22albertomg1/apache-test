@@ -1,0 +1,3 @@
+<FilesMatch "\.(jpg|jpeg|gif|png|bmp)$">
+    Require ip 192.168.121.128/26
+</FilesMatch>

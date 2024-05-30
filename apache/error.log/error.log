@@ -1,0 +1,35 @@
+[Thu May 30 10:56:56.657590 2024] [core:alert] [pid 10:tid 139850040735424] [client 192.168.121.51:49584] /app/alberto/htdocs/rio/.htaccess: Expected </RequireAll> but saw </RequireAny>
+[Thu May 30 10:57:50.601632 2024] [core:alert] [pid 9:tid 140199706396352] [client 192.168.121.51:42640] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 10:57:52.872215 2024] [core:alert] [pid 10:tid 140199706396352] [client 192.168.121.51:42642] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 10:57:53.466051 2024] [core:alert] [pid 9:tid 140199476590272] [client 192.168.121.51:42656] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 10:57:53.748182 2024] [core:alert] [pid 10:tid 140199689610944] [client 192.168.121.51:42666] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 10:58:13.090198 2024] [core:alert] [pid 9:tid 140199451412160] [client 192.168.121.51:39434] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:02:15.134911 2024] [core:alert] [pid 10:tid 139995547010752] [client 192.168.121.51:38720] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:02:18.657536 2024] [core:alert] [pid 9:tid 139995547010752] [client 192.168.121.51:38724] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:05:16.996568 2024] [core:alert] [pid 9:tid 140618582914752] [client 192.168.121.51:47912] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:05:17.630619 2024] [core:alert] [pid 10:tid 140618582914752] [client 192.168.121.51:47926] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:05:17.922946 2024] [core:alert] [pid 10:tid 140618495944384] [client 192.168.121.51:47936] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:05:18.164672 2024] [core:alert] [pid 9:tid 140618495944384] [client 192.168.121.51:47944] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:05:18.372416 2024] [core:alert] [pid 10:tid 140618479158976] [client 192.168.121.51:47960] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:05:18.576145 2024] [core:alert] [pid 10:tid 140618462373568] [client 192.168.121.51:47970] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:05:18.742758 2024] [core:alert] [pid 9:tid 140618479158976] [client 192.168.121.51:47986] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:05:18.943562 2024] [core:alert] [pid 9:tid 140618462373568] [client 192.168.121.51:47996] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:05:47.312540 2024] [core:alert] [pid 10:tid 140617900357312] [client 192.168.121.51:45154] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:09:27.752875 2024] [core:alert] [pid 22:tid 139745930958528] [client 192.168.121.51:34886] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:09:28.440609 2024] [core:alert] [pid 23:tid 139745930958528] [client 192.168.121.51:34888] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:09:34.138145 2024] [core:alert] [pid 23:tid 139745914173120] [client 192.168.121.51:41314] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:09:36.168667 2024] [core:alert] [pid 22:tid 139745897387712] [client 192.168.121.51:41326] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:09:45.473959 2024] [core:alert] [pid 23:tid 139745897387712] [client 192.168.121.51:49506] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:09:54.945785 2024] [core:alert] [pid 23:tid 139745283798720] [client 192.168.121.51:41712] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:11:04.747126 2024] [core:alert] [pid 22:tid 139745552234176] [client 192.168.121.51:46464] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:18:53.702361 2024] [core:alert] [pid 23:tid 140108468577984] [client 192.168.121.51:54680] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:19:15.713401 2024] [core:alert] [pid 10:tid 140038168483520] [client 192.168.121.51:39546] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:19:32.484206 2024] [core:alert] [pid 9:tid 140038168483520] [client 192.168.121.51:37934] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:20:44.503176 2024] [core:alert] [pid 10:tid 140038054594240] [client 192.168.121.51:42006] /app/alberto/htdocs/rio/.htaccess: Unknown Authz provider: group
+[Thu May 30 11:25:21.408692 2024] [authz_core:error] [pid 23:tid 139730024908480] [client 192.168.121.51:35086] AH01631: user pablo: authorization failure for "/rio/": 
+[Thu May 30 11:25:28.640606 2024] [authz_core:error] [pid 23:tid 139730008123072] [client 192.168.121.51:35094] AH01631: user pablo: authorization failure for "/rio/": 
+[Thu May 30 11:25:50.346423 2024] [authz_core:error] [pid 22:tid 139728833734336] [client 192.168.121.51:43436] AH01631: user maria: authorization failure for "/rio/": 
+[Thu May 30 11:37:56.825251 2024] [ssl:warn] [pid 21:tid 140707268106112] AH01906: www.alberto.acasadepapel.lan:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu May 30 11:37:56.825315 2024] [ssl:warn] [pid 21:tid 140707268106112] AH01909: www.alberto.acasadepapel.lan:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 30 11:37:56.830000 2024] [ssl:warn] [pid 21:tid 140707268106112] AH01906: www.alberto.acasadepapel.lan:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu May 30 11:37:56.830022 2024] [ssl:warn] [pid 21:tid 140707268106112] AH01909: www.alberto.acasadepapel.lan:443:0 server certificate does NOT include an ID which matches the server name

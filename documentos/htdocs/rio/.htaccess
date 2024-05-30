@@ -1,0 +1,16 @@
+AuthType Digest 
+AuthName casadepapel
+AuthDigestProvider file
+AuthUserFile /app/alberto/.htdigest
+AuthGroupFile /app/alberto/.htgroup
+<RequireAny>
+    Require user profesor
+    <RequireAll>
+        Require group atracadores
+        Require not group infiltrados
+    </RequireAll>
+    <RequireAll>
+        Require group ladrons
+        Require not group cni policias
+    </RequireAll>
+</RequireAny> 
